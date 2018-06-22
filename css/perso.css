@@ -1,0 +1,79 @@
+/* Zone 1 :  avec la première image avec les étoiles */
+
+.zone1 {
+    
+/* Hauteur minimum de la zone permettant d'afficher toute l'image  */
+    min-height: 850px; 
+    
+/* j'indique l'url de l'image en la centrant dans le container et en utilisant la valeur no-repeat 
+pour éviter les duplications */
+    
+    background: url(../img/arriere_plan_1.jpg) no-repeat center;
+    
+/* la valeur cover utilisée avec la propriété background-size Redimensionne l'image de fond pour qu'elle s'adapte exactement aux dimensions du container qui l'aura comme arrière plan */
+    
+    background-size: cover; 
+    
+/* Ici je centre tout le contenu qui se trouve à l'intérieur de la zone 1 */
+    text-align: center;
+  
+    
+}
+
+
+
+/* Zone 2 : Zone avec la main qui tient le portable Pas d'image de fond mais un background grisé*/
+.zone2{
+	 
+/** Je définis une couleur blanchatre pour le background de catte zone */
+    
+	background:#f5f6f7;
+    
+/** Je définis les marges internes (haut 200px et puis Bas / droite / et gauche je définis 0 pour utiliser le système de colonne de bootstrap pour les répartir dans l'espace de la deuxième zone, cf le fichier index.html pour ça */
+    padding: 200px 0 0 ;
+	
+}
+/* Zone 3 : Zone avec un portable à gauche, elle est blanche, du coup pas de couleur de fond...  */
+
+.zone3{
+/** Je définis les marges internes (haut et bas 140px et droite et gauche je définis 0 pour utiliser 
+    le système de colonne de bootstrap pour les répartir dans l'espace de la deuxième zone, cf le fichier index.html pour ça */
+	padding:140px 0 0;
+}
+
+
+/* Zone 4 : Zone avec le petit fourgon et les feuilles d'automne, pareil niveau background color que la zone 2, les marges : en haut et en bas 120px / à droite et à gauche 0px, je vais utiliser bootstrap pour faire le reste du travail */
+
+.zone4{
+    padding: 120px 0;
+    background: #f5f6f7;
+}
+
+/* Zone 5 : Zone avec la dame qui prend en photo une ville en image de fond */
+/* J'ai adopté le même principe que pour la zone 1, donc cf commentaire un peu plus haut en zone 1
+pour la compréhension du code */
+.zone5 {
+    background: url(../img/arriere_plan_5.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 800px;
+}
+/* Zone 6 : Zone download it , pas d'image de fond mais elle est grisée
+Pareil que pour en haut, une zone blanchatre avec des padding (marges interne que je définis à vue 
+d'oeil par rapport à la photo et que je réajuste eventuellement par la suite. )
+    padding-top: 90px;
+    padding-right: 0px;
+    padding-bottom: 115px;
+    padding-left: 0px;
+*/
+.zone6 {
+    padding: 90px 0 115px; 
+    text-align: center;
+    background: #f5f6f7;
+}
+
+/* Zone 7 : Zone footer en blanc */
+.zone7 {
+padding: 35px 0;
+}
+
