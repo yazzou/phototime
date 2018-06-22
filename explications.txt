@@ -1,0 +1,8 @@
+﻿########### Etape 1 ############
+
+Je découpe ma page en grandes sections. J'intègre les background s'il y en a. 
+Je définis des marges internes à vue d'oeil que je peux modifier par la suite
+
+Attention : les explications ne se limitent à ce présent fichier, veuillez voir 
+les commentaires pour les explications concernant les propriétés utilisées. 
+
